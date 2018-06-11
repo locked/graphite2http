@@ -1,4 +1,4 @@
-## Dependancies
+## Dependencies
 
 You will need to install ```python-requests```
 
