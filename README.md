@@ -1,4 +1,4 @@
-## installation
+## Installation
 
 Move graphite2http.py in /opt/
 
