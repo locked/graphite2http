@@ -1,4 +1,4 @@
-== installation
+## installation
 
 Move graphite2http.py in /opt/
 
@@ -13,10 +13,14 @@ key=<your key>
 
 Register service in systemd:
 
-```systemctl daemon-reload```
+```
+systemctl daemon-reload
+```
 
 Enable service:
 
-```systemctl enable graphite2http```
+```
+systemctl enable graphite2http
+```
 
 You can now send metrics to port 2003, they will be forwarded to graphapi.lunasys.fr
