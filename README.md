@@ -1,3 +1,7 @@
+## Dependancies
+
+You will need to install ```python-requests```
+
 ## Installation
 
 Move graphite2http.py in /opt/
