@@ -1,0 +1,13 @@
+[Unit]
+Description=graphite2http
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root
+ExecStart=/root/graphite2http.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
